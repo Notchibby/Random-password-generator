@@ -8,7 +8,7 @@ const capital = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var numeric = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var special_characters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "~", "`", "[", "{", "]", "}", "|"];
-
+var random_password = [];
 
 
 function generatePassword() {
@@ -64,6 +64,15 @@ function generatePassword() {
   }
   else { alert("No special characters chosen") };
 
+  for (var i = 0; i < password_length; i++) {
+    var index = Math.floor(Math.random() * character_type.length);
+    random_password.push(character_type[index]);
+  };
+  console.log(random_password)
+
+
+  
+
 };
 
 // Write password to the #password input
@@ -73,7 +82,7 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+  passwordText.value = password; random_password
 
 }
 
