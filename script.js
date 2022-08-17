@@ -69,7 +69,7 @@ function generatePassword() {
     random_password.push(character_type[index]);
   };
   console.log(random_password)
-
+  
 
   
 
@@ -82,7 +82,7 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password; random_password
+  passwordText.value = random_password;
 
 }
 
