@@ -9,6 +9,6 @@ I also encountered difficulties pushing the individual values of a selected char
 https://github.com/Notchibby/Random-password-generator.git
 
 ## Link to live url deployment
-
+https://notchibby.github.io/Random-password-generator/
 
 This activity helped solidify my understanding and use of java script.
