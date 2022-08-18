@@ -5,6 +5,14 @@ A random password generator page, which generates a random password of a certain
 The first problem i encountered was putting in the values for the numeric variable as numbers as opposed to strings.
 I also encountered difficulties pushing the individual values of a selected character type into a new array. After extensive research and trial and error, i managed to find out that i needed to use the for loop to iterate through a given array to push its indivdual values one at a time into a new array.
 
+## screenshots
+![Image of randomly generated password.](assets\images\generated-password.png).
+
+![Image of window alert after number character type was not selected](assets\images\random-gen_no-numbers-chosen.png)
+
+![image of the home page for the random password generator](assets\images\random-gen-homepage.png)
+
+
 ## Link to github repository
 https://github.com/Notchibby/Random-password-generator.git
 
